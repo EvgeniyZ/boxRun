@@ -131,9 +131,9 @@ GameObject:
   - component: {fileID: 58559674}
   - component: {fileID: 58559673}
   - component: {fileID: 58559672}
+  - component: {fileID: 58559676}
   - component: {fileID: 58559671}
   - component: {fileID: 58559675}
-  - component: {fileID: 58559676}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -226,6 +226,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edc6e97bb983fc84cb7a2971c6b17676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forwardForce: 1000
+  sidewayForce: 500
   rb: {fileID: 58559676}
 --- !u!54 &58559676
 Rigidbody:
